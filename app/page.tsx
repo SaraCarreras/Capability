@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button"
+import  Button  from "@/components/ui/button"
 import {ArrowUpIcon} from "lucide-react";
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
           >
             Documentation
           </a>
-          <Button variant="destructive"  >Up Button<ArrowUpIcon />
+          <Button variant="destructive">Up Button<ArrowUpIcon />
           </Button>
         </div>
       </main>

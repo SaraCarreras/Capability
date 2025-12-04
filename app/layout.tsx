@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Capability",
-  description: "Panel for managing capabilitys",
+  description: "Panel for managing capabilitis",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-      <QueryProvider >
+      <QueryProvider>
         {children}
       </QueryProvider>
       </body>
